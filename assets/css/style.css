@@ -1,10 +1,10 @@
 @font-face {
     font-family: "lemon";
-    src: url("/font/LEMONMILK-Bold.otf");
+    src: url("font/LEMONMILK-Bold.otf");
 }
 @font-face {
   font-family: "lemonR";
-  src: url("/font/LEMONMILK-Regular.otf");
+  src: url("font/LEMONMILK-Regular.otf");
 }
 /* Define estilos personalizados */
 body{
