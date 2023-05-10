@@ -1,0 +1,168 @@
+/* Importa o Bootstrap */
+@font-face {
+    font-family: "lemon";
+    src: url("/font/LEMONMILK-Bold.otf");
+}
+@font-face {
+  font-family: "lemonR";
+  src: url("/font/LEMONMILK-Regular.otf");
+}
+/* Define estilos personalizados */
+body{
+    color: #ffffff;
+    overflow-x: hidden;
+    background-image: radial-gradient(circle, #87bec4, #3C7DA6); 
+}
+header {
+    color: #ffffff;
+    justify-content: center;  
+}
+.container{
+  margin-top: 5%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(60, 125, 166, 0.384);
+}
+ul{
+  padding: 0.8rem;
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+}
+li{
+  display: inline;
+  justify-content: center;
+}
+#itemNav {
+  position: relative;
+  color: #101113;
+  margin: 25px;
+  padding: 5px;
+  font-family: 'lemon';
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+#itemNav:hover::after {
+  width: 100%;
+  color: #ffffff;
+}
+#itemNav::after {
+  transition: .5s ease-out;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.logo{
+  position: absolute;
+  left: 2%;
+  color: #ffffff;
+}
+.logo img{
+  width: 60px;
+}
+.logo:hover{
+  position: absolute;
+  left: 2%;
+  color: #ffffff;
+  text-decoration: none;
+}
+footer {
+    margin-top: 5%;
+    padding: 1%;
+    background-color: rgba(60, 125, 166, 0.384);
+    text-align: center;
+}
+footer img{
+  width: 60px;
+}
+footer a{
+  color: #ffffff;
+}
+footer a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+.texto h1{
+  color: #1a1c1e;
+  font-family: 'lemonR';
+  text-align: left;
+}
+.texto span{
+  font-family: 'lemon';
+  text-align: left;
+  color: #101113;
+}
+.texto p{
+  color: #1a1c1e;
+  font-family: 'lemonR';
+  font-size: 1rem;
+  text-align: left;
+}
+.texto{
+  margin-top: 25%;
+}
+.Download{
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'lemonR';
+}
+.Download p{
+  margin: 0;
+}
+#DownloadP{
+  color: #1a1c1e;
+  font-family: 'lemonR';
+  font-size: 1rem;      
+}
+#btn{
+  margin-top: 2%;
+  text-align:center ;
+}
+.imgbtn{
+  width: 20%;
+}
+
+/* colocando invisivel para o scrollReveal*/
+.row{
+    visibility: hidden;
+}
+
+@media (max-width: 780px) {
+    img{
+      width: 100%;
+      }
+    .texto h1{
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .texto P{
+      font-size: .9rem;
+      text-align: center;
+    }
+    .texto{
+      margin-top: 10%;
+      text-align: center;
+    }
+    .Download{
+      font-size: .5rem;
+      border-radius: 0;
+    }
+    #DownloadP{
+      color: #1a1c1e;
+      font-family: 'lemonR';
+      font-size: .6rem;      
+    }
+    .imgbtn{
+      width: 40%;
+    }
+  }
